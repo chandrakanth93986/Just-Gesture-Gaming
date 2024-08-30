@@ -102,7 +102,7 @@ def main():
                 keyboard.release(Key.right)
 
                 # keboard.press(KeyCode.from_char('a'))
-                # keboard.release(KeyCode.from_char('a'))
+                # keboard.release(KeyCode.from_char('a')) 
                 
             counter += 1
 
