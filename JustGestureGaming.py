@@ -1,7 +1,7 @@
 import time
 import cv2
 import mediapipe as mp
-from pynput.keyboard import Key, Controller
+from pynput.keyboard import Key, Controller, KeyCode
 import math
 
 class PoseDetector:
@@ -101,6 +101,9 @@ def main():
                 keyboard.press(Key.right)
                 keyboard.release(Key.right)
 
+                # keboard.press(KeyCode.from_char('a'))
+                # keboard.release(KeyCode.from_char('a'))
+                
             counter += 1
 
         if counter == 11:
